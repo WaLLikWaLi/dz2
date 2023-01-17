@@ -1,0 +1,145 @@
+:root{
+    --white-color:#FFFFFF;
+    --primary-text-color:#757575;
+    --primary-title-color:#212121;
+    --accent-color:#2196F3;
+    --dark-background-color:#2F303A;
+}
+body{
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.logo{
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+.second-logo{
+    color:#000000;
+}
+.header-nav .link{
+    color: var(--primary-title-color);
+    font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.header-nav .link:hover,
+.header-nav .link:focus{
+    color: var(--accent-color);
+}
+.header-address .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+.header-address .link:hover,
+.header-address .link:focus{
+    color: var(--accent-color);
+}
+.hero {
+   background-color:var(--dark-background-color);
+}
+.hero-title{
+    color: var(--white-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.hero-button{
+    background-color:var(--accent-color);
+    color:var(--white-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+.our-works-title{
+    color: var(--primary-title-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.what-we-do-title{
+    color: var(--primary-title-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+}
+.our-team .title{
+    color: var(--primary-title-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+}
+.name-title{
+    color: var(--primary-title-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+
+}
+.our-team .text{
+    font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+}
+.footer{
+    background-color: var(--dark-background-color);
+}
+.footer .second-logo {
+    color: var(--white-color);
+}
+.footer-address .link{
+    color: rgba(255, 255, 255, 0.6);;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+.footer-address .link:hover,
+.footer-address .link:focus {
+    color: var(--accent-color);
+}
+.footer-address .address-link {
+    color: var(--white-color);
+    ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.footer-address .address-link:hover,
+.footer-address .address-link:focus {
+    color: var(--accent-color);
+}
